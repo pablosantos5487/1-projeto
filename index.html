@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lancheria do Pablo - Os Melhores Lanches da Cidade</title>
+    <meta name="description" content="Lancheria do Pablo - Lanches artesanais, hambúrgueres suculentos e o melhor atendimento. Peça pelo WhatsApp e receba em casa!">
+    
+    <!-- Fontes e ícones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" title="Peça pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Cabeçalho Fixo -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo">
+                <i class="fas fa-hamburger"></i>
+                <span>Lancheria do Pablo</span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cardapio" class="nav-link">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#promocoes" class="nav-link">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container container grid">
+                <div class="hero-data">
+                    <h1 class="hero-title">
+                        Os <span class="hero-title-accent">Melhores Lanches</span><br>
+                        da Cidade em um Só Lugar
+                    </h1>
+                    <p class="hero-description">
+                        Na Lancheria do Pablo, cada mordida é uma experiência! Nossos lanches são feitos com ingredientes frescos, 
+                        carnes selecionadas e muito amor. Peça agora e receba em casa rapidinho!
+                    </p>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="button button-flex">
+                        <i class="fab fa-whatsapp"></i>
+                        Peça pelo WhatsApp
+                    </a>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Pedidos/Dia</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.9</span>
+                            <span class="stat-label">★ Avaliação</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15min</span>
+                            <span class="stat-label">Entrega</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Hambúrguer suculento da Lancheria do Pablo" class="hero-burger">
+                    <div class="hero-bg"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Cardápio -->
+        <section class="cardapio section" id="cardapio">
+            <h2 class="section-title">Nosso Cardápio</h2>
+            <span class="section-subtitle">Escolha seu favorito</span>
+
+            <div class="cardapio-container container grid">
+                <!-- Lanche 1 -->
+                <div class="cardapio-card">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pablo Especial" class="cardapio-img">
+                    <div class="cardapio-data">
+                        <h3 class="cardapio-title">Pablo Especial</h3>
+                        <p class="cardapio-description">
+                            Nosso carro-chefe! Pão brioche, carne de 200g, queijo cheddar, bacon crocante, 
+                            alface, tomate e nosso molho especial secreto. Acompanhado de batata frita.
+                        </p>
+                        <div class="cardapio-footer">
+                            <span class="cardapio-price">R$ 32,90</span>
+                            <a href="https://wa.me/5511999999999?text=Olá! Quero pedir o Pablo Especial" target="_blank" class="button button-small">
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lanche 2 -->
+                <div class="cardapio-card">
+                    <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="X-Tudo" class="cardapio-img">
+                    <div class="cardapio-data">
+                        <h3 class="cardapio-title">X-Tudo Pablo</h3>
+                        <p class="cardapio-description">
+                            Para os mais famintos! Pão, 2 carnes de 150g, queijo, presunto, bacon, 
+                            ovo, alface, tomate, milho, ervilha e batata palha. É muita coisa boa!
+                        </p>
+                        <div class="cardapio-footer">
+                            <span class="cardapio-price">R$ 28,90</span>
+                            <a href="https://wa.me/5511999999999?text=Olá! Quero pedir o X-Tudo Pablo" target="_blank" class="button button-small">
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lanche 3 -->
+                <div class="cardapio-card">
+                    <img src="https://images.unsplash.com/photo-1594212699903-ec8a3e50c183?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Frango Grelhado" class="cardapio-img">
+                    <div class="cardapio-data">
+                        <h3 class="cardapio-title">Frango Grelhado</h3>
+                        <p class="cardapio-description">
+                            Opção mais leve! Peito de frango grelhado, pão integral, queijo minas, 
+                            alface, tomate e molho de iogurte. Saudável e delicioso!
+                        </p>
+                        <div class="cardapio-footer">
+                            <span class="cardapio-price">R$ 24,90</span>
+                            <a href="https://wa.me/5511999999999?text=Olá! Quero pedir o Frango Grelhado" target="_blank" class="button button-small">
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lanche 4 -->
+                <div class="cardapio-card">
+                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Veggie Burger" class="cardapio-img">
+                    <div class="cardapio-data">
+                        <h3 class="cardapio-title">Veggie Pablo</h3>
+                        <p class="cardapio-description">
+                            Hamburguer vegetariano de grão de bico, pão integral, queijo, alface, 
+                            tomate, pepino e molho tahine. Sabor que surpreende!
+                        </p>
+                        <div class="cardapio-footer">
+                            <span class="cardapio-price">R$ 26,90</span>
+                            <a href="https://wa.me/5511999999999?text=Olá! Quero pedir o Veggie Pablo" target="_blank" class="button button-small">
+                                <i class="fab fa-whatsapp"></i>
+                                Pedir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardapio-footer-section">
+                <p>📋 <strong>Quer ver nosso cardápio completo?</strong></p>
+                <a href="#" class="button button-outline" onclick="alert('Cardápio completo em PDF será baixado!')">
+                    <i class="fas fa-file-pdf"></i>
+                    Baixar Cardápio Completo
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção Promoções -->
+        <section class="promocoes section" id="promocoes">
+            <div class="promocoes-bg">
+                <div class="promocoes-container container grid">
+                    <div class="promocoes-data">
+                        <h2 class="section-title promocoes-title">Promoções Especiais</h2>
+                        <p class="promocoes-description">
+                            Aproveite nossas ofertas imperdíveis! Mude sua rotina com os melhores lanches 
+                            da cidade e ainda economize. Corre que é por tempo limitado!
+                        </p>
+                        
+                        <div class="promocoes-cards">
+                            <div class="promocao-card">
+                                <div class="promocao-badge">🔥 MAIS VENDIDO</div>
+                                <h3>Combo Pablo Especial</h3>
+                                <p>Pablo Especial + Batata Frita Grande + Refrigerante 500ml</p>
+                                <div class="promocao-price">
+                                    <span class="price-old">R$ 45,90</span>
+                                    <span class="price-new">R$ 36,90</span>
+                                </div>
+                                <a href="https://wa.me/5511999999999?text=Olá! Quero o Combo Pablo Especial" target="_blank" class="button">
+                                    <i class="fab fa-whatsapp"></i>
+                                    Aproveitar
+                                </a>
+                            </div>
+
+                            <div class="promocao-card">
+                                <div class="promocao-badge">⭐ OFERTA DO DIA</div>
+                                <h3>2X-Tudo + 2 Bebidas</h3>
+                                <p>Perfeito para compartilhar! 2 X-Tudo Pablo + 2 Refrigerantes</p>
+                                <div class="promocao-price">
+                                    <span class="price-old">R$ 67,80</span>
+                                    <span class="price-new">R$ 49,90</span>
+                                </div>
+                                <a href="https://wa.me/5511999999999?text=Olá! Quero a promoção 2X-Tudo" target="_blank" class="button">
+                                    <i class="fab fa-whatsapp"></i>
+                                    Aproveitar
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="promocao-timer">
+                            <p class="timer-text">⏰ Promoção termina em:</p>
+                            <div class="timer" id="timer">
+                                <span id="hours">23</span>:
+                                <span id="minutes">59</span>:
+                                <span id="seconds">59</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Depoimentos -->
+        <section class="depoimentos section">
+            <h2 class="section-title">O que nossos clientes dizem</h2>
+            <span class="section-subtitle">Avaliações reais de quem já experimentou</span>
+
+            <div class="depoimentos-container container grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="depoimento-description">
+                        "Simplesmente o melhor hambúrguer que já comi na vida! O Pablo Especial é divino, 
+                        o molho secreto é sensacional. Já virou meu lugar fixo toda sexta-feira!"
+                    </p>
+                    <div class="depoimento-cliente">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Carlos Silva" class="cliente-img">
+                        <div class="cliente-data">
+                            <h3 class="cliente-name">Carlos Silva</h3>
+                            <span class="cliente-title">Cliente desde 2022</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="depoimento-description">
+                        "A entrega é super rápida, o lanche chega quentinho e o atendimento é excelente. 
+                        O preço é justo pela qualidade que entregam. Recomendo muito!"
+                    </p>
+                    <div class="depoimento-cliente">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b5bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Fernanda Costa" class="cliente-img">
+                        <div class="cliente-data">
+                            <h3 class="cliente-name">Fernanda Costa</h3>
+                            <span class="cliente-title">Cliente frequente</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="depoimento-card">
+                    <div class="depoimento-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="depoimento-description">
+                        "Experimentei o Veggie Pablo por curiosidade e me surpreendi! Muito saboroso 
+                        e bem montado. Minha família toda adorou. Parabéns Pablo!"
+                    </p>
+                    <div class="depoimento-cliente">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Julia Oliveira" class="cliente-img">
+                        <div class="cliente-data">
+                            <h3 class="cliente-name">Julia Oliveira</h3>
+                            <span class="cliente-title">Cliente vegetariana</span>
+                        </div>
+                    </div>
+                    <div class="depoimento-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer section" id="contato">
+        <div class="footer-container container grid">
+            <div class="footer-content">
+                <div class="footer-data">
+                    <h3 class="footer-title">
+                        <i class="fas fa-hamburger"></i>
+                        Lancheria do Pablo
+                    </h3>
+                    <p class="footer-description">
+                        Há mais de 5 anos servindo os melhores lanches da cidade com qualidade, 
+                        sabor e muito carinho. Sua satisfação é nossa prioridade!
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/lancheriadopablo" target="_blank" class="footer-social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/lancheriadopablo" target="_blank" class="footer-social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5511999999999" target="_blank" class="footer-social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Horário de Funcionamento</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <i class="fas fa-clock"></i>
+                            Segunda a Quinta: 18h às 23h30
+                        </li>
+                        <li class="footer-item">
+                            <i class="fas fa-clock"></i>
+                            Sexta e Sábado: 18h às 00h30
+                        </li>
+                        <li class="footer-item">
+                            <i class="fas fa-clock"></i>
+                            Domingo: 18h às 23h
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Contato</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Rua das Laranjeiras, 123 - Centro
+                        </li>
+                        <li class="footer-item">
+                            <i class="fas fa-phone"></i>
+                            (11) 9999-9999
+                        </li>
+                        <li class="footer-item">
+                            <i class="fab fa-whatsapp"></i>
+                            (11) 9 8888-8888
+                        </li>
+                        <li class="footer-item">
+                            <i class="fas fa-envelope"></i>
+                            contato@lancheriadopablo.com.br
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Formas de Pagamento</h3>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-pix"></i>
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <p class="payment-text">
+                        Aceitamos cartões, PIX e dinheiro!
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-rights">
+                <p class="footer-copy">&#169; 2024 Lancheria do Pablo. Todos os direitos reservados.</p>
+                <p class="footer-developed">
+                    Desenvolvido com ❤️ para o melhor lanche da cidade
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
