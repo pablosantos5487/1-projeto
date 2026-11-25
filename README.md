@@ -2,9 +2,9 @@
 
 Um site moderno e interativo desenvolvido para aumentar pedidos e engajamento dos clientes da Lancheria do Pablo.
 
-## Site da Açaiteria
+## Site DaHora Açaí
 
-O site Açaí Vivo está em [`acaiteria/`](./acaiteria/), separado do site principal. Para publicá-lo pelo GitHub Pages, configure **Settings → Pages → Deploy from a branch → main → /(root)**. Depois da publicação, acesse `https://pablosantos5487.github.io/1-projeto/acaiteria/`; o painel do lojista fica em `/acaiteria/admin.html`.
+O site DaHora Açaí está em [`acaiteria/`](./acaiteria/), separado do site principal. Para publicá-lo pelo GitHub Pages, configure **Settings → Pages → Deploy from a branch → main → /(root)**. Depois da publicação, acesse `https://pablosantos5487.github.io/1-projeto/acaiteria/`; o painel do lojista fica em `https://pablosantos5487.github.io/1-projeto/acaiteria/admin.html`.
 
 ## 🎯 Objetivo do Projeto
 
